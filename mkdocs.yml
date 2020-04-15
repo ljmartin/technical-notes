@@ -19,23 +19,23 @@ theme:
     primary: red
     accent: orange
   font:
-    text: Manrope
+    text: Barlow
     code: Inconsolata
 
 # Extras
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/squidfunk
+      link: https://github.com/ljmartin
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/squidfunk
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/squidfunk
+      link: https://twitter.com/lewischewis
+#    - icon: fontawesome/brands/linkedin
+#      link: https://linkedin.com/in/squidfunk
 
 # Google Analytics
-google_analytics:
-  - UA-XXXXXXXX-X
-  - auto
+#google_analytics:
+#  - UA-XXXXXXXX-X
+#  - auto
 
 # Extensions
 markdown_extensions:
@@ -44,6 +44,10 @@ markdown_extensions:
       guess_lang: false
   - toc:
       permalink: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 nav:
   - Home: 'index.md'
@@ -52,3 +56,4 @@ nav:
     - 'Estimators': 'stats/estimators.md'
     - 'Estimators for autocorrelated data': 'stats/estimators-autocorrelated.md'
     - 'Regression': 'stats/regression.md'
+

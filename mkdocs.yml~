@@ -1,12 +1,12 @@
 # Project information
 site_name: Technical Notes
 site_description: A Material Design theme for MkDocs
-site_author: Martin Donath
-site_url: https://squidfunk.github.io/mkdocs-material/
+site_author: Lewis James Martin
+site_url: https://ljmartin.github.io/technical-notes/
 
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: ljmartin/technical_notes
+repo_url: https://github.com/ljmartin/technical_notes
 
 # Copyright
 copyright: Copyright &copy; 2016 - 2020 Martin Donath

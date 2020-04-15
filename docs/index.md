@@ -2,12 +2,12 @@
 
 A page for storing short, simplified notes on data science topics 
 
-## Commands
+!!! note "Already Open note"
+    This one you can see
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+??? note "Collapsible Note"
+    Is `markdown` allowed in a note?
+
 
 ## Project layout
 

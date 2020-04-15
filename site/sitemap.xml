@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
+     <loc>https://ljmartin.github.io/technical-notes/</loc>
+     <lastmod>2020-04-15</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://ljmartin.github.io/technical-notes/stats/random-variables/</loc>
+     <lastmod>2020-04-15</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://ljmartin.github.io/technical-notes/stats/estimators/</loc>
+     <lastmod>2020-04-15</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://ljmartin.github.io/technical-notes/stats/estimators-autocorrelated/</loc>
+     <lastmod>2020-04-15</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://ljmartin.github.io/technical-notes/stats/regression/</loc>
+     <lastmod>2020-04-15</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+</urlset>
