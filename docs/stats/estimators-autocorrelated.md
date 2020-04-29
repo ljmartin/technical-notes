@@ -1,4 +1,4 @@
-# Standard error of the (estimated) mean for time-series data
+# Standard error of the (estimated) mean for autocorrelated data
 
 
 A common analysis task is determining the mean value of a metric in a sample - here we consider the metric to be the arithmetic mean. Because we don't have access to the entire population, this is almost always done by taking a sample from the population, measuring the mean in the sample, then taking that measurement as an estimation of the true value. Because the mean estimate doesn't return the exact true value, it should be accompanied by error bars, also known as a confidence interval. For sample data that is independent, calculating the standard error of the estimated mean is trivial using a formula. Some other data, for example time series, are highly correlated and thus need some adjustments to determine the error.
@@ -12,7 +12,9 @@ This article demonstrates four different techniques for determing the standard e
 - Autoregressive ('AR(1)') maximum likelihood fit, with an analytical adjustment of the standard error
 - AR(1) Bayesian estimation
 
-
+??? note "Note on the code"
+    The code for the analysis is all written in python. To use it in your own workflow, copy the `sem_utils.py` from [https://github.com/ljmartin/estimating_sem_timeseries](https://github.com/ljmartin/estimating_sem_timeseries). The function calls rather than the full code is used here for clarity.
+ 
 ------------
 
 ## Demonstration
@@ -40,10 +42,8 @@ base = alt.Chart(long.reset_index())
 chart = base.mark_line().encode(x = 'index:Q', y = 'value:Q')
 chart = alt.layer(chart).properties(width=400, height=300).facet(column=alt.Column('variable:N', sort=['Uncorrelated', 'Autocorrelated']))
 chart.interactive()
-
 ```
 
-    WARNING (theano.configdefaults): install mkl with `conda install mkl-service`: No module named 'mkl'
 
 
 
