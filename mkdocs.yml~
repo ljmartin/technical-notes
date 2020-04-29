@@ -54,6 +54,6 @@ nav:
   - 'Stats':
     - 'Random variables': 'stats/random-variables.md'
     - 'Estimators': 'stats/estimators.md'
-    - 'Estimators for autocorrelated data': 'stats/estimators-autocorrelated.md'
-    - 'Regression': 'stats/regression.md'
+    - 'Estimators for autocorrelated data': 'stats/estimators-autocorrelated.html'
+
 
