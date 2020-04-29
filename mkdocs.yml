@@ -1,6 +1,6 @@
 # Project information
 site_name: Technical Notes
-site_description: A Material Design theme for MkDocs
+site_description: Technical notes on data science topics
 site_author: Lewis James Martin
 site_url: https://ljmartin.github.io/technical-notes/
 
@@ -60,5 +60,6 @@ nav:
     - 'Random variables': 'stats/random-variables.md'
     - 'Estimators': 'stats/estimators.md'
     - 'SEM for autocorrelated data': 'stats/estimators-autocorrelated.md'
+#    - 'hi': 'stats/hi.md'
 
 

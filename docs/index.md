@@ -1,6 +1,6 @@
 # ljmartin's technical notes
 
-Short and simple notes on data science topics 
+Technical notes on data science topics 
 
 !!! note "Already Open note"
     This one you can see
