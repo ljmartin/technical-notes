@@ -114,7 +114,7 @@ chart
 
 
 
-Both these charts have the same variance (how much they stretch away from the middle value). The key difference is that for the independent data (left), each point has no memory of the previous point, hence they appear to jump around more. In contrast, for autocorrelated data (right) each point is similar to the previous point, meaning the curve moves in waves. `Autocorrelated` means correlated to itself.
+Both these charts have the same variance (how much they stretch away from the middle value). The key difference is that for the independent data (left), each point has no memory of the previous point, hence they appear to jump around more. In contrast, for autocorrelated data (right) each point is similar to the previous point, meaning the curve moves in waves - this is also the reason for the name autocorrelated (correlated with itself). You can see the confidence intervals as shaded bars. The autocorrelated sample has a mean estimate that's off center, which is normally not a problem if the CI encompasses the mean. In this case, the waviness of the data mean that while there's lots of measurements, we haven't actually sampled much variation and the error is deceptively small.
 
 ----------
 ## SEM Calculation
