@@ -12,9 +12,6 @@ This article demonstrates four different techniques for determing the standard e
 - Autoregressive ('AR(1)') maximum likelihood fit, with an analytical adjustment of the standard error
 - AR(1) Bayesian estimation
 
-??? note "Note on the code"
-    The code for the analysis is all written in python. To use it in your own workflow, copy the `sem_utils.py` from [https://github.com/ljmartin/estimating_sem_timeseries](https://github.com/ljmartin/estimating_sem_timeseries). The function calls rather than the full code is used here for clarity.
-
 
 ------------
 
